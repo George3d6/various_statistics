@@ -1,0 +1,264 @@
+Country,Code,Year,OECD PISA education score
+Albania,ALB,2000,369
+Albania,ALB,2009,384
+Albania,ALB,2012,395
+Argentina,ARG,2000,401
+Argentina,ARG,2006,382
+Argentina,ARG,2009,396
+Argentina,ARG,2012,397
+Austria,AUT,2000,514
+Austria,AUT,2003,506
+Austria,AUT,2006,502
+Austria,AUT,2009,487
+Austria,AUT,2012,501
+Azerbaijan,AZE,2006,404
+Azerbaijan,AZE,2009,389
+Belgium,BEL,2000,508
+Belgium,BEL,2003,525
+Belgium,BEL,2006,510
+Belgium,BEL,2009,509
+Belgium,BEL,2012,510
+Brazil,BRA,2000,368
+Brazil,BRA,2003,371
+Brazil,BRA,2006,384
+Brazil,BRA,2009,401
+Brazil,BRA,2012,402
+Bulgaria,BGR,2000,436
+Bulgaria,BGR,2006,416
+Bulgaria,BGR,2009,432
+Bulgaria,BGR,2012,440
+Canada,CAN,2000,532
+Canada,CAN,2003,529
+Canada,CAN,2006,529
+Canada,CAN,2009,527
+Canada,CAN,2012,522
+Chile,CHL,2000,403
+Chile,CHL,2006,430
+Chile,CHL,2009,439
+Chile,CHL,2012,436
+China,CHN,2009,577
+China,CHN,2012,588
+Colombia,COL,2006,381
+Colombia,COL,2009,399
+Colombia,COL,2012,393
+Costa Rica,CRI,2012,426
+Croatia,HRV,2006,479
+Croatia,HRV,2009,474
+Croatia,HRV,2012,482
+Cyprus,CYP,2012,442
+Czech Republic,CZE,2000,500
+Czech Republic,CZE,2003,516
+Czech Republic,CZE,2006,502
+Czech Republic,CZE,2009,490
+Czech Republic,CZE,2012,500
+Denmark,DNK,2000,497
+Denmark,DNK,2003,517
+Denmark,DNK,2006,501
+Denmark,DNK,2009,499
+Denmark,DNK,2012,498
+Estonia,EST,2006,516
+Estonia,EST,2009,514
+Estonia,EST,2012,526
+Finland,FIN,2000,540
+Finland,FIN,2003,548
+Finland,FIN,2006,553
+Finland,FIN,2009,543
+Finland,FIN,2012,529
+France,FRA,2000,507
+France,FRA,2003,519
+France,FRA,2006,493
+France,FRA,2009,497
+France,FRA,2012,500
+Germany,DEU,2000,487
+Germany,DEU,2003,513
+Germany,DEU,2006,505
+Germany,DEU,2009,510
+Germany,DEU,2012,515
+Greece,GRC,2000,461
+Greece,GRC,2003,448
+Greece,GRC,2006,464
+Greece,GRC,2009,473
+Greece,GRC,2012,466
+Hong Kong,HKG,2000,542
+Hong Kong,HKG,2003,548
+Hong Kong,HKG,2006,542
+Hong Kong,HKG,2009,546
+Hong Kong,HKG,2012,554
+Hungary,HUN,2000,488
+Hungary,HUN,2003,501
+Hungary,HUN,2006,492
+Hungary,HUN,2009,496
+Hungary,HUN,2012,486
+Iceland,ISL,2000,506
+Iceland,ISL,2003,505
+Iceland,ISL,2006,494
+Iceland,ISL,2009,501
+Iceland,ISL,2012,485
+Indonesia,IDN,2000,377
+Indonesia,IDN,2003,361
+Indonesia,IDN,2006,392
+Indonesia,IDN,2009,385
+Indonesia,IDN,2012,384
+Ireland,IRL,2000,514
+Ireland,IRL,2003,498
+Ireland,IRL,2006,509
+Ireland,IRL,2009,497
+Ireland,IRL,2012,515
+Israel,ISR,2000,440
+Israel,ISR,2006,445
+Israel,ISR,2009,459
+Israel,ISR,2012,474
+Italy,ITA,2000,474
+Italy,ITA,2003,469
+Italy,ITA,2006,469
+Italy,ITA,2009,486
+Italy,ITA,2012,490
+Japan,JPN,2000,543
+Japan,JPN,2003,547
+Japan,JPN,2006,517
+Japan,JPN,2009,529
+Japan,JPN,2012,540
+Jordan,JOR,2006,402
+Jordan,JOR,2009,402
+Jordan,JOR,2012,398
+Kazakhstan,KAZ,2009,399
+Kazakhstan,KAZ,2012,417
+Kyrgyzstan,KGZ,2006,306
+Kyrgyzstan,KGZ,2009,325
+Latvia,LVA,2000,460
+Latvia,LVA,2003,483
+Latvia,LVA,2006,485
+Latvia,LVA,2009,487
+Latvia,LVA,2012,494
+Liechtenstein,LIE,2000,491
+Liechtenstein,LIE,2003,529
+Liechtenstein,LIE,2006,519
+Liechtenstein,LIE,2009,518
+Liechtenstein,LIE,2012,525
+Lithuania,LTU,2006,481
+Lithuania,LTU,2009,479
+Lithuania,LTU,2012,484
+Luxembourg,LUX,2000,443
+Luxembourg,LUX,2003,494
+Luxembourg,LUX,2006,485
+Luxembourg,LUX,2009,482
+Luxembourg,LUX,2012,490
+Macedonia,MKD,2000,385
+Macedonia,MKD,2003,532
+Macedonia,MKD,2006,509
+Macedonia,MKD,2009,508
+Macedonia,MKD,2012,523
+Malaysia,MYS,2012,413
+Mexico,MEX,2000,410
+Mexico,MEX,2003,384
+Mexico,MEX,2006,409
+Mexico,MEX,2009,420
+Mexico,MEX,2012,417
+Montenegro,MNE,2006,401
+Montenegro,MNE,2009,404
+Montenegro,MNE,2012,414
+Netherlands,NLD,2003,520
+Netherlands,NLD,2006,521
+Netherlands,NLD,2009,519
+Netherlands,NLD,2012,519
+New Zealand,NZL,2000,531
+New Zealand,NZL,2003,533
+New Zealand,NZL,2006,524
+New Zealand,NZL,2009,524
+New Zealand,NZL,2012,509
+Norway,NOR,2000,501
+Norway,NOR,2003,490
+Norway,NOR,2006,487
+Norway,NOR,2009,500
+Norway,NOR,2012,496
+Panama,PAN,2009,369
+Peru,PER,2000,317
+Peru,PER,2009,368
+Peru,PER,2012,375
+Poland,POL,2000,477
+Poland,POL,2003,487
+Poland,POL,2006,500
+Poland,POL,2009,501
+Poland,POL,2012,521
+Portugal,PRT,2000,461
+Portugal,PRT,2003,470
+Portugal,PRT,2006,471
+Portugal,PRT,2009,490
+Portugal,PRT,2012,488
+Qatar,QAT,2006,326
+Qatar,QAT,2009,373
+Qatar,QAT,2012,383
+Romania,ROU,2006,410
+Romania,ROU,2009,427
+Romania,ROU,2012,441
+Russia,RUS,2000,467
+Russia,RUS,2003,479
+Russia,RUS,2006,465
+Russia,RUS,2009,469
+Russia,RUS,2012,481
+Serbia,SRB,2003,420
+Serbia,SRB,2006,424
+Serbia,SRB,2009,442
+Serbia,SRB,2012,447
+Singapore,SGP,2009,543
+Singapore,SGP,2012,555
+Slovakia,SVK,2003,492
+Slovakia,SVK,2006,482
+Slovakia,SVK,2009,488
+Slovakia,SVK,2012,472
+Slovenia,SVN,2006,506
+Slovenia,SVN,2009,499
+Slovenia,SVN,2012,499
+South Korea,KOR,2000,541
+South Korea,KOR,2003,550
+South Korea,KOR,2006,542
+South Korea,KOR,2009,541
+South Korea,KOR,2012,543
+Spain,ESP,2000,487
+Spain,ESP,2003,482
+Spain,ESP,2006,476
+Spain,ESP,2009,484
+Spain,ESP,2012,489
+Sweden,SWE,2000,513
+Sweden,SWE,2003,509
+Sweden,SWE,2006,504
+Sweden,SWE,2009,496
+Sweden,SWE,2012,482
+Switzerland,CHE,2000,506
+Switzerland,CHE,2003,521
+Switzerland,CHE,2006,514
+Switzerland,CHE,2009,517
+Switzerland,CHE,2012,518
+Taiwan,TWN,2006,526
+Taiwan,TWN,2009,520
+Taiwan,TWN,2012,535
+Thailand,THA,2000,433
+Thailand,THA,2003,425
+Thailand,THA,2006,418
+Thailand,THA,2009,422
+Thailand,THA,2012,437
+Trinidad and Tobago,TTO,2009,414
+Tunisia,TUN,2003,345
+Tunisia,TUN,2006,377
+Tunisia,TUN,2009,392
+Tunisia,TUN,2012,397
+Turkey,TUR,2003,408
+Turkey,TUR,2006,432
+Turkey,TUR,2009,455
+Turkey,TUR,2012,462
+United Arab Emirates,ARE,2009,459
+United Arab Emirates,ARE,2012,441
+United Kingdom,GBR,2000,528
+United Kingdom,GBR,2006,502
+United Kingdom,GBR,2009,500
+United Kingdom,GBR,2012,502
+United States,USA,2000,499
+United States,USA,2003,477
+United States,USA,2006,482
+United States,USA,2009,496
+United States,USA,2012,492
+Uruguay,URY,2003,411
+Uruguay,URY,2006,423
+Uruguay,URY,2009,427
+Uruguay,URY,2012,412
+Vietnam,VNM,2012,516
