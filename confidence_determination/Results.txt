@@ -1,0 +1,16 @@
+Model: M
+Dataset: a)
+Accuracy score of 99.1%
+
+---------------------------
+
+1. Accuracy : 0.982
+2. 0.8 quantile of confidence accuracy : None
+3. 0.5 quantile of confidence accuracy : None
+4. Subset acc/conf : None
+5. Full dataset acc/conf : None
+6. Confidence weighted accuracy : 0.982
+training_time : 46.424
+
+---------------------------
+
