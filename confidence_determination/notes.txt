@@ -1,0 +1,58 @@
+Model: M
+Dataset: c)
+Accuracy score of 86.65%
+
+---------------------------
+
+1. Accuracy : 0.733
+2. 0.8 quantile of confidence accuracy : None
+3. Subset acc/conf : None
+4. Full dataset acc/conf : None
+5. Confidence weighted accuracy : 0.733
+
+---------------------------
+
+
+Model: M+C
+Dataset: c)
+Accuracy score of 87.79%
+
+---------------------------
+
+1. Accuracy : 0.756
+2. 0.8 quantile of confidence accuracy : 1.0
+3. Subset acc/conf : 1.002
+4. Full dataset acc/conf : 1.002
+5. Confidence weighted accuracy : 0.702
+
+---------------------------
+
+
+Model: MC
+Dataset: c)
+Accuracy score of 87.31%
+
+---------------------------
+
+1. Accuracy : 0.746
+2. 0.8 quantile of confidence accuracy : 1.0
+3. Subset acc/conf : 0.982
+4. Full dataset acc/conf : 1.005
+5. Confidence weighted accuracy : 0.694
+
+---------------------------
+
+
+Model: Mprim
+Dataset: c)
+Accuracy score of 87.04%
+
+---------------------------
+
+1. Accuracy : 0.741
+2. 0.8 quantile of confidence accuracy : 1.0
+3. Subset acc/conf : 0.962
+4. Full dataset acc/conf : 0.97
+5. Confidence weighted accuracy : 0.708
+
+---------------------------

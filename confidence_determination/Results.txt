@@ -1,16 +1,18 @@
 Model: M
+Degree: 3
+Mode: linear
 Dataset: a)
-Accuracy score of 99.1%
+Accuracy score of 96.4%
 
 ---------------------------
 
-1. Accuracy : 0.982
+1. Accuracy : 0.928
 2. 0.8 quantile of confidence accuracy : None
 3. 0.5 quantile of confidence accuracy : None
 4. Subset acc/conf : None
 5. Full dataset acc/conf : None
-6. Confidence weighted accuracy : 0.982
-training_time : 46.424
+6. Confidence weighted accuracy : 0.928
+7. Training time : 16.276
 
 ---------------------------
 

@@ -124,13 +124,14 @@ for degree in [3,4,5,6]:
                 validation_acc_delta_hist_arr = []
                 best_validation_acc = 0
                 best_model = None
-                validation_hist_size = 10
+                delta_stop_size = 6
+                best_stop_size = delta_stop_size * 5
                 lr_reductions = 0
 
                 start_train = time.time()
                 for epoch in range(3000):
                     if model != 'M':
-                        if time.time() - start_train > 2*max_train_time:
+                        if time.time() - start_train > 4*max_train_time:
                             break
 
                     if epoch == 0:
@@ -190,11 +191,12 @@ for degree in [3,4,5,6]:
                     validation_acc_delta_arr.append(validation_acc_delta)
                     validation_acc_delta_hist_arr.append(validation_acc_delta)
 
-                    validativalidation_acc_arron_acc = validation_acc_arr[-validation_hist_size:]
-                    validation_acc_delta_arr = validation_acc_delta_arr[-validation_hist_size:]
+                    validativalidation_acc_arron_acc = validation_acc_arr[-delta_stop_size:]
+                    validation_acc_delta_arr = validation_acc_delta_arr[-delta_stop_size:]
 
-                    best_stop =  len(validation_acc_delta_hist_arr) >= validation_hist_size*20 and round(np.max(validation_acc_delta_hist_arr),6) <= round(best_validation_acc,6)
-                    delta_stop = len(validation_acc_delta_arr) == validation_hist_size and np.mean(validation_acc_delta_arr) < 0
+                    best_stop =  len(validation_acc_delta_hist_arr) >= best_stop_size and round(np.max(validation_acc_delta_hist_arr[-best_stop_size:]),6) < round(best_validation_acc,6)
+
+                    delta_stop = len(validation_acc_delta_arr) == delta_stop_size and np.mean(validation_acc_delta_arr) < 0
 
                     if delta_stop:
                         break
@@ -210,11 +212,13 @@ for degree in [3,4,5,6]:
                 else:
                     acc, eval_data = validate(mode, data_test,best_model.to(device), True)
 
-                eval_data['training_time'] = training_time
+                eval_data['7. Training time'] = training_time
                 dataset = str(data_gen_func).split('function ')[1].split(' at')[0].replace('gen_', '')
                 acc = round(acc*100,2)
                 out = ''
                 out += f'Model: {model}'
+                out += f'\nDegree: {degree}'
+                out += f'\nMode: {mode}'
                 out += f'\nDataset: {dataset})'
                 out += f'\nAccuracy score of {acc}%'
                 out += '\n\n---------------------------\n\n'
@@ -230,7 +234,7 @@ for degree in [3,4,5,6]:
                 if degree not in exp_result: exp_result[degree] = {}
                 if mode not in exp_result[degree]: exp_result[degree][mode] = {}
                 if model not in exp_result[degree][mode]: exp_result[degree][mode][model] = {}
-                
+
                 exp_result[degree][mode][model][dataset] = eval_data
 
 json.dump(exp_result, open('Results.json', 'w'))

@@ -203,6 +203,7 @@ I want to test some solutions here and evaluate them based on six criteria:
 4. Given a random subset of predictions + confidences, is the mean of the confidence values equal to the accuracy for that subset of predictions ?
 5. same as (4) but on the whole dataset rather than a random subset.
 6. Assuming a situation where a wrong predictions is `-1` and a correct prediction `1`, and the accuracy score is the sum of all these `-1` and `1` values. Would weighting this value by their associated confidence increase the value of this sum ?
+7. How long does the setup take to converge on a validation dataset ? For ease of experimenting this means "how long does the main predictive model take to converge", once that converges we'll stop regardless of how good the confidence model has gotten. This will also be capped to avoid wasting too much time if a given model fails to converge in a reasonable amount of time compared to the others.
 
 Some of these may not seems that intuitive/interesting, but are useful to evaluate during the experiment in order to make small tweaks and find errors with the models (e.g. criteria 1,2,5 and 6)
 
@@ -218,7 +219,7 @@ The solutions will be:
 
 ## Experimental setup
 
-I will run each model through all dataset and compare the results. Running model `M` alone serves as a sanity benchmark for the accuracy values and is there in order to set the maximum training time (2x how long it take to "converge" on validation data).
+I will run each model through all dataset and compare the results. Running model `M` alone serves as a sanity benchmark for the accuracy values and is there in order to set the maximum training time (4x how long it take to "converge" on validation data) in order to avoid wasting too much time on setups that are very low to converge (thes would probably be impractical).
 
 I will also use multiple parameters to generate the datasets, the combinations will be between:
 1. Degree: 3 ,4 ,5 ,and 6
